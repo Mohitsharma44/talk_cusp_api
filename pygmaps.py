@@ -1,8 +1,11 @@
+'''
+Originally created by jiangyifei. Edited by Mohit Sharma
+A simple Python wrapper for google maps api.
+'''
+__author__ = 'Mohit Sharma'
+__version__ = 'Development'
+
 import math
-###########################################################
-## Google map python wrapper V0.1
-## 
-############################################################
 
 class maps:
 
