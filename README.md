@@ -17,14 +17,19 @@ In this workshop, we used the [NYC Open Wifi Hotspot data](https://nycopendata.s
 
 ## Installation
 We have to install `sodapy` and `pygmaps`. 
+### Install Sodapy:
 
 - `pip install sodapy`
 
-- `wget http://52.25.91.45/misc_files/pygmaps.py` and copy this file to your current working directory (so this can be imported in our project. Or you can also copy paste this to your python lib directory.. `/usr/local/lib` or `usr/lib`)
+### Clone this repo:
+
+- `git clone https://github.com/Mohitsharma44/talk_cusp_api.git`
 
 ## Use
 Create your account at [socrata](https://nycopendata.socrata.com/signup) and login.
 
 After logging in, scroll at the bottom and on the applications panel click on Manage -> Create a New Application. Enter the information about your new app (You can leave the URL fields empty.)
+
+Fire up your ipython notebooks in the directory where you cloned this repo.
 
 Check the [WifiHotspots](https://github.com/Mohitsharma44/talk_cusp_api/blob/master/wifi_hotspots.ipynb) example.
